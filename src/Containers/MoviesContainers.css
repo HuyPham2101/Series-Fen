@@ -1,0 +1,9 @@
+.MoviesContainers{
+    align-content: center;
+    background-color: wheat;
+        display: flex;
+        align-items: center;
+    /* text-align: center; */
+    /* margin:auto; */
+    flex-flow: row wrap;
+}

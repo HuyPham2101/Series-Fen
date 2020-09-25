@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Layout from './Layout/Layout'
+import Layout from './Components/Layout/Layout'
+import MoviesContainer from './Containers/MoviesContainers'
 
 function App() {
   return (
     <div className="App">
-      <Layout/>
+      <Layout>
+      <MoviesContainer/>
+      </Layout>
     </div>
   );
 }
